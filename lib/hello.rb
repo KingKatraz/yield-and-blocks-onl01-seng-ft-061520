@@ -1,9 +1,9 @@
-Array = [1,2,3,4]
+array = [1,2,3,4]
 
 def hello_t
 i = 0
 
-while i < Array.length
+while i < array.length
 i = i + 1
 end
 
