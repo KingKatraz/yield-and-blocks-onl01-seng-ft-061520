@@ -1,4 +1,4 @@
-array = [hal, bj, ben]
+
 
 def hello_t(array)
   if block_given?
@@ -14,4 +14,4 @@ def hello_t(array)
 end
 end
 
-hello_t(array) {|array| puts 
+hello_t(["Tim", "Tom", "Jim"]) {|array| puts 
