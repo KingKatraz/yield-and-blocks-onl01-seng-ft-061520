@@ -1,9 +1,9 @@
 
 
-def hello_t(names)
+def hello_t
 i = 0
 
-while i < names.length
+while i < array.length
 i = i + 1
 end
 
