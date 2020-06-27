@@ -12,4 +12,4 @@ def hello_t(array)
 end
 end
 
-hello_t(0) {|array| 
+hello_t(array) {|array| 
