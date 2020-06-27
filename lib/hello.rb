@@ -14,4 +14,4 @@ def hello_t(array)
 end
 end
 
-hello_t(["Tim", "Tom", "Jim"]) {|array| puts 
+hello_t(["Tim", "Tom", "Jim"]) {|name| puts name}
