@@ -1,3 +1,5 @@
+array = [hal, bj, ben]
+
 def hello_t(array)
   if block_given?
     i = 0
@@ -12,4 +14,4 @@ def hello_t(array)
 end
 end
 
-hello_t(array) {|array| 
+hello_t(array) {|array| puts #{name}
